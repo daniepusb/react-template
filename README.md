@@ -1,6 +1,5 @@
 # React + Vite
-## Quick Start 
-
+## Quick Start
 Run `npm create vite@latest` to create a new project.
 ```sh
 npx create-vite@latest
