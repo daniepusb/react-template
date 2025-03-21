@@ -1,10 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
-import App from './Clase2.jsx'
+//import App from './Clase2.jsx'
+import Counter from "./components/Counter_clase3.jsx";
+import ToggleButton from "./components/ToggleButton_clase_5.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <ToggleButton  />
+    <Counter  />
   </StrictMode>,
 )
