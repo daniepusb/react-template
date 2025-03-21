@@ -4,9 +4,11 @@ import './index.css'
 //import App from './Clase2.jsx'
 import Counter from "./components/Counter_clase3.jsx";
 import ToggleButton from "./components/ToggleButton_clase_5.jsx";
+import NameForm from "./components/NameForm_class6.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <NameForm  />
     <ToggleButton  />
     <Counter  />
   </StrictMode>,
