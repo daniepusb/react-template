@@ -5,9 +5,11 @@ import './index.css'
 import Counter from "./components/Counter_clase3.jsx";
 import ToggleButton from "./components/ToggleButton_clase_5.jsx";
 import NameForm from "./components/NameForm_class6.jsx";
+import CounterWithEffect from "./components/Counter_clase7.jsx";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    <CounterWithEffect  />
     <NameForm  />
     <ToggleButton  />
     <Counter  />
